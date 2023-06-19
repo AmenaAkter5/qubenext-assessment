@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap");
+
+.reviews-container {
+  background-color: #1e1e1e;
+  padding: 50px;
+}
+
+.reviews {
+  display: inline-block;
+  position: relative;
+  width: 422px;
+  height: 207px;
+  box-sizing: border-box;
+}
+
+.review {
+  display: inline-block;
+  width: 422px;
+  height: 207px;
+  clip-path: polygon(100% 0, 100% 74%, 93% 100%, 0 100%, 0 0);
+  border: 2.5px solid #ff7a00;
+  border-radius: 10px;
+  border-top: 2.5px solid #ff7a00;
+  border-right: 3px solid #ff7a00;
+  border-bottom: 2.5px solid #ff7a00;
+  background-color: #1b1b1b;
+}
+
+.review img {
+  padding: 16px 18px 18px 18px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.user-info h6 {
+  padding-bottom: 0;
+  margin-bottom: 1px;
+}
+
+.user-info small {
+  color: #8c8c8c;
+}
+
+#star-box {
+  background-color: #272727;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  border-radius: 0 10px 0;
+  padding: 10px 30px;
+  border-bottom: 2.5px solid #ff7a00;
+  clip-path: polygon(0 0, 100% 0, 100% 37%, 100% 100%, 16% 100%, 8% 51%);
+}
+
+#star-box img {
+  padding: 3px;
+  width: 21px;
+}
+
+.review-text {
+  color: white;
+  font-size: 13px;
+  padding: 18px;
+  position: absolute;
+  bottom: 0;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+.review-underline {
+  width: 100%;
+  height: 1px;
+  background-color: #585858;
+  display: block;
+  margin-bottom: 13px;
+}
+
+/* create and control path */
+
+.review-path {
+  position: absolute;
+  background-color: #ff7a00;
+  right: 109px;
+  display: block;
+  top: 22px;
+  border-radius: 20px;
+}
+
+.review-path-ii {
+  position: absolute;
+  width: 70px;
+  height: 2.5px;
+  background-color: #ff7a00;
+  display: block;
+  top: 16px;
+  right: 122px;
+  border-radius: 16px;
+  rotate: 61deg;
+}
+
+.review-path-iii {
+  position: absolute;
+  width: 146px;
+  height: 3px;
+  background-color: #ff7a00;
+  z-index: 4356000000020;
+  display: block;
+  bottom: 36px;
+  right: -63px;
+  border-radius: 25px;
+  rotate: -61.5deg;
+}
